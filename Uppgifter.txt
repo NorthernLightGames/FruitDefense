@@ -3,10 +3,10 @@ UPPGIFTER!!!!
 
 
 
-1  Storyn ‰r alla med pÂ
+1  Storyn √§r alla med p√•
 
 
-2  charact‰r design och animation helst 2 pers:
+2  charact√§r design och animation helst 2 pers:
 
 
 3  Vapen design:
@@ -17,23 +17,26 @@ ________________
 
 3  Modellering:
 
-4  textur:
+4  textur: (Valdemar)
 ________________ 
 
 
 4  Ljud och partickel effekter:
 
 
-5  AI- bot rˆrelser:
+5  AI- bot r√∂relser: Valdemar
 
 
-6  Level designer- Helst 2 pers:
+6  Level designer- Helst 2 pers: Valdemar
 
 
 7  Dialoger-2 pers:      och:
 
 
-*Skriv g‰rna till om nÂgot fattas eller gˆr ny b‰ttre lista*
+(Div programmeringssysslor: Valdemar)
+
+
+*Skriv g√§rna till om n√•got fattas eller g√∂r ny b√§ttre lista*
 
 
 
@@ -46,7 +49,7 @@ ________________
 
 
 
-ÆNorthernLight games
+NorthernLight games(TM)
 
 
 
