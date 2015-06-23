@@ -1,21 +1,19 @@
-UPPGIFTER!!!!
+﻿UPPGIFTER!!!!
 
 
 
 
-1  Storyn är alla med på
+***Storyn är alla med på
 
 
-2  charactär design och animation helst 2 pers:
+1  Charactär skapning:(Gustav) 
 
-
-3  Vapen design:
 
 ELLER
 ________________
-2  Animation:
+2  Animation:(Gustav)
 
-3  Modellering:
+3  Modellering:(Gustav)
 
 4  textur: (Valdemar)
 ________________ 
@@ -27,10 +25,10 @@ ________________
 5  AI- bot rörelser: Valdemar
 
 
-6  Level designer- Helst 2 pers: Valdemar
+6  Level designer- Helst 2 pers: Valdemar Gustav
 
 
-7  Dialoger-2 pers:      och:
+7  Dialoger-2 pers:(Gustav) och:
 
 
 (Div programmeringssysslor: Valdemar)
