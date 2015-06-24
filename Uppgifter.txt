@@ -9,26 +9,25 @@
 1  Charactär skapning:(Gustav) 
 
 
-ELLER
-________________
 2  Animation:(Gustav)
+
 
 3  Modellering:(Gustav)
 
-4  textur: (Valdemar)
-________________ 
+
+4  textur: (Valdemar) 
 
 
-4  Ljud och partickel effekter:
+5  Ljud och partickel effekter:
 
 
-5  AI- bot rörelser: Valdemar
+6  AI- bot rörelser: Valdemar
 
 
-6  Level designer- Helst 2 pers: Valdemar Gustav
+7  Level designer- Helst 2 pers: Valdemar Gustav
 
 
-7  Dialoger-2 pers:(Gustav) och:
+8  Dialoger-2 pers:(Gustav) och:
 
 
 (Div programmeringssysslor: Valdemar)
