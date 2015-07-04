@@ -1,0 +1,928 @@
+﻿Log file open, 07/03/15 18:53:08
+LogInit:Display: Running engine for game: Defense
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.07.03-16.53.08:932][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.07.03-16.53.08:986][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.03-16.53.09:006][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.03-16.53.09:017][  0]LogInit: Object subsystem initialized
+[2015.07.03-16.53.09:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.03-16.53.09:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Julian/Desktop/FruitDefense/Defense/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.03-16.53.09:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.03-16.53.09:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Julian/Desktop/FruitDefense/Defense/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.03-16.53.09:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.03-16.53.09:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Julian/Desktop/FruitDefense/Defense/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.03-16.53.09:020][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.03-16.53.09:020][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.03-16.53.09:028][  0]LogInit: Computer: JULIAN-DATOR
+[2015.07.03-16.53.09:028][  0]LogInit: User: Julian
+[2015.07.03-16.53.09:028][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.03-16.53.09:028][  0]LogInit: High frequency timer resolution =2.929736 MHz
+[2015.07.03-16.53.09:029][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.07.03-16.53.09:029][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.03-16.53.09:029][  0]LogMemory: Process Physical Memory: 47.14 MB used, 47.14 MB peak
+[2015.07.03-16.53.09:029][  0]LogMemory: Process Virtual Memory: 23.13 MB used, 23.13 MB peak
+[2015.07.03-16.53.09:029][  0]LogMemory: Physical Memory: 2907.42 MB used, 8121.64 MB total
+[2015.07.03-16.53.09:029][  0]LogMemory: Virtual Memory: 277.00 MB used, 8388608.00 MB total
+[2015.07.03-16.53.09:064][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2015.07.03-16.53.09:064][  0]LogD3D11RHI: Adapter has 972MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2015.07.03-16.53.09:064][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.03-16.53.09:109][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2015.07.03-16.53.09:120][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.03-16.53.09:195][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.03-16.53.09:295][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.07.03-16.53.09:295][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.07.03-16.53.09:393][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.03-16.53.12:694][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-16.53.13:976][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-16.53.14:067][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.03-16.53.14:512][  0]LogDerivedDataCache: Loaded boot cache 0.44s 39MB C:/Users/Julian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.07.03-16.53.14:512][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Julian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.07.03-16.53.14:512][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Julian/Desktop/FruitDefense/Defense/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.03-16.53.14:512][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.03-16.53.14:656][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.03-16.53.14:668][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Julian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.03-16.53.15:084][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.03-16.53.15:084][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.03-16.53.15:501][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.03-16.53.15:699][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.07.03-16.53.36:271][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.03-16.53.36:778][  0]SourceControl: Info Source control is disabled
+[2015.07.03-16.53.36:778][  0]SourceControl: Info Source control is disabled
+[2015.07.03-16.53.36:778][  0]SourceControl: Info Source control is disabled
+[2015.07.03-16.53.36:778][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.07.03-16.53.36:779][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.07.03-16.53.36:793][  0]SourceControl: Info Source control is disabled
+[2015.07.03-16.53.37:548][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.07.03-16.53.37:548][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.07.03-16.53.37:649][  0]LogEngine: Initializing Engine...
+[2015.07.03-16.53.39:867][  0]LogInit: XAudio2 using 'Högtalare (2- Wireless Stereo Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.03-16.53.39:889][  0]LogInit: FAudioDevice initialized.
+[2015.07.03-16.53.39:947][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.03-16.53.39:971][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Julian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.07.03-16.53.39:976][  0]LogInit: Texture streaming: Enabled
+[2015.07.03-16.53.40:105][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.03-16.53.40:105][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.07.03-16.53.40:105][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.07.03-16.53.40:105][  0]LogAnalytics: SetUserId 114211194728c12cf23f1982bf284a97|4a027c99dc4a4f4b84fd30ef33c35992|6d9f2403-2aa6-497e-9cf6-fe627383b913
+[2015.07.03-16.53.40:106][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.07.03-16.53.40:137][  0]LogInit: Transaction tracking system initialized
+[2015.07.03-16.53.40:400][  0]BlueprintLog: New page: Editor Load
+[2015.07.03-16.53.40:447][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2015.07.03-16.53.40:447][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.03-16.53.41:419][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-16.53.42:106][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-16.53.42:943][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.07.03-16.53.42:944][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.07.03-16.53.43:193][  0]LogConsoleResponse:Display: 
+[2015.07.03-16.53.43:541][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.03-16.53.44:292][  0]SourceControl: Info Source control is disabled
+[2015.07.03-16.53.44:292][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.03-16.53.44:293][  0]LightingResults: New page: Lighting Build
+[2015.07.03-16.53.44:313][  0]MapCheck: New page: Map Check
+[2015.07.03-16.53.44:313][  0]LightingResults: New page: Lighting Build
+[2015.07.03-16.53.44:329][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019AF0C20
+[2015.07.03-16.53.44:897][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.03-16.53.44:900][  0]LogAIModule: Creating AISystem for world TestMap
+[2015.07.03-16.53.44:901][  0]Cmd: MAP CHECKDEP
+[2015.07.03-16.53.44:901][  0]MapCheck: New page: TestMap - Jul 3, 2015, 8:53:44 PM
+[2015.07.03-16.53.45:043][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.298ms to complete.
+[2015.07.03-16.53.45:043][  0]LogFileHelpers: Loading map 'TestMap' took 0.751
+[2015.07.03-16.53.45:223][  0]LogCollectionManager: Loaded 0 collections in 0.002073 seconds
+[2015.07.03-16.53.45:239][  0]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 1696 classes and 261 folders.
+[2015.07.03-16.53.45:294][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0047 seconds. Added 1 classes and 2 folders.
+[2015.07.03-16.53.45:381][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.03-16.53.45:383][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.07.03-16.53.45:403][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.03-16.53.45:436][  0]LogLoad: Full Startup: 38.76 seconds (BP compile: 0.08 seconds)
+[2015.07.03-16.53.45:629][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.07.03-16.53.45:774][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.07.03-16.53.45:809][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.07.03-16.53.45:810][  1]Cmd: UpdateLandscapeEditorData
+[2015.07.03-16.53.45:985][  5]LogAssetRegistry: Asset discovery search completed in 5.5478 seconds
+[2015.07.03-16.54.09:432][304]LogMaterial: 0.001712 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-16.54.09:443][304]LogMaterial: 0.001669 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-16.54.09:454][304]LogMaterial: 0.001733 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-16.54.09:455][304]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.07.03-16.54.14:768][561]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-16.54.21:081][913]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.07.03-16.54.39:954][926]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.07.03-16.54.47:292][298]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-16.54.47:360][298]LogMaterial: 0.001410 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-16.54.51:872][491]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-16.54.55:746][685]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-16.56.07:398][887]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-16.56.07:404][887]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-16.56.07:441][887]LogMaterial: 0.008665 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-16.56.07:444][887]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-16.56.52:011][697]Cmd: TRANSACTION UNDO
+[2015.07.03-16.56.52:011][697]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-16.56.52:034][697]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-16.56.52:035][697]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-16.56.52:051][697]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-16.56.52:598][711]Cmd: TRANSACTION UNDO
+[2015.07.03-16.56.52:598][711]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-16.56.52:649][711]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-16.56.52:666][711]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-16.56.52:683][711]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-16.56.52:700][712]Cmd: UpdateLandscapeEditorData
+[2015.07.03-16.56.58:297][ 21]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-16.57.19:729][251]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-16.57.27:010][690]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-16.57.27:040][690]LogMaterial: 0.001399 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-16.58.42:348][941]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/TestMap_sharedassets'
+[2015.07.03-17.03.45:774][139]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-17.03.45:776][139]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-17.03.45:777][139]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-17.03.45:779][139]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-17.03.45:780][139]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-17.03.45:781][139]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-17.03.45:783][139]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.07.03-17.03.45:784][139]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-17.03.45:785][139]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.07.03-17.03.45:987][139]LogSavePackage: Save=220.205841ms
+[2015.07.03-17.03.45:987][139]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto10CA42B6D462AD5B81885BEBC18FEB62A.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto1.umap'
+[2015.07.03-17.03.45:997][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.360
+[2015.07.03-17.03.45:997][139]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.360
+[2015.07.03-17.07.23:232][272]Cmd: TRANSACTION UNDO
+[2015.07.03-17.07.23:233][272]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2015.07.03-17.07.23:275][272]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-17.07.38:230][116]Cmd: TRANSACTION UNDO
+[2015.07.03-17.07.38:230][116]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2015.07.03-17.07.38:276][116]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-17.14.18:683][937]Cmd: TRANSACTION UNDO
+[2015.07.03-17.14.18:683][937]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-17.14.18:704][937]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-17.14.18:722][937]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-17.14.19:536][951]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-17.14.19:537][951]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.07.03-17.14.19:541][951]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-17.14.19:542][951]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-17.14.19:544][951]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-17.14.19:545][951]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-17.14.19:547][951]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.07.03-17.14.19:548][951]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-17.14.19:549][951]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.07.03-17.14.19:778][951]LogSavePackage: Save=249.479477ms
+[2015.07.03-17.14.19:778][951]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto232403B5645A56256C45294B6616F745F.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto2.umap'
+[2015.07.03-17.14.19:789][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.462
+[2015.07.03-17.14.19:789][951]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.462
+[2015.07.03-17.15.10:793][715]Cmd: TRANSACTION UNDO
+[2015.07.03-17.15.10:793][715]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-17.15.10:819][715]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-17.15.10:822][715]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-17.15.10:841][715]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-17.15.11:570][747]Cmd: TRANSACTION UNDO
+[2015.07.03-17.15.11:570][747]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-17.15.11:616][747]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-17.16.26:124][492]Cmd: TRANSACTION UNDO
+[2015.07.03-17.16.26:124][492]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-17.16.26:164][492]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-17.16.26:180][492]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-17.22.58:644][760]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.07.03-17.23.04:099][ 51]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.07.03-17.23.17:057][295]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.07.03-17.23.26:637][578]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.07.03-17.24.15:917][964]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.07.03-17.24.53:552][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.24.53:643][416]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-17.24.53:647][416]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-17.24.53:649][416]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-17.24.53:650][416]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-17.24.53:652][416]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-17.24.53:653][416]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-17.24.53:655][416]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.07.03-17.24.53:655][416]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-17.24.53:657][416]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.07.03-17.24.53:933][416]LogSavePackage: Save=297.117554ms
+[2015.07.03-17.24.53:933][416]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap898B8FF84E7159940612A5A0E0245F8C.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.24.53:967][416]LogFileHelpers: Saving map 'TestMap' took 0.596
+[2015.07.03-17.24.53:974][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterMovePath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset" SILENT=true
+[2015.07.03-17.24.53:996][416]LogSavePackage: Save=19.866295ms
+[2015.07.03-17.24.53:996][416]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterMovePathC73D8BA94B352F1199C5198FEF63F4BF.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset'
+[2015.07.03-17.25.02:962][ 64]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.07.03-17.25.24:089][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.25.24:115][215]LogSavePackage: Save=18.074326ms
+[2015.07.03-17.25.24:115][215]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPointB01ABDF14CC3B3B8E38ABFAADAFCC52A.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.25.29:051][465]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:93395).
+[2015.07.03-17.25.39:541][261]BlueprintLog: New page: Compile MonsterMovePath
+[2015.07.03-17.25.39:625][261]BlueprintEditorCompileResults: Info [1952.93] Compile of MonsterMovePath successful! [in 83 ms]
+[2015.07.03-17.26.40:624][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.26.40:770][584]LogSavePackage: Save=68.476479ms
+[2015.07.03-17.26.40:770][584]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap463FDE0C46F514F07DBEC6A683553731.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.26.40:801][584]LogFileHelpers: Saving map 'TestMap' took 0.357
+[2015.07.03-17.26.40:806][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterMovePath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset" SILENT=true
+[2015.07.03-17.26.40:870][584]LogSavePackage: Save=20.440750ms
+[2015.07.03-17.26.40:870][584]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterMovePath4541B58D4F99702F47FF26820FD9DA79.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset'
+[2015.07.03-17.26.41:300][627]BlueprintLog: New page: Compile MonsterMovePath
+[2015.07.03-17.26.41:404][627]BlueprintEditorCompileResults: Info [2014.71] Compile of MonsterMovePath successful! [in 103 ms]
+[2015.07.03-17.26.43:726][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.26.43:878][776]LogSavePackage: Save=70.302925ms
+[2015.07.03-17.26.43:878][776]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapBEBE7BDA41633DBEA67829B1432865CC.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.26.43:912][776]LogFileHelpers: Saving map 'TestMap' took 0.380
+[2015.07.03-17.26.51:061][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.26.51:215][188]LogSavePackage: Save=71.764832ms
+[2015.07.03-17.26.51:215][188]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap5C8C7581467192AE1D3D88A5A689329C.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.26.51:248][188]LogFileHelpers: Saving map 'TestMap' took 0.370
+[2015.07.03-17.26.51:254][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterMovePath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset" SILENT=true
+[2015.07.03-17.26.51:313][188]LogSavePackage: Save=20.152328ms
+[2015.07.03-17.26.51:313][188]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterMovePath2CE4D4FD430CC836D78B6E9515EB191B.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset'
+[2015.07.03-17.26.51:667][223]BlueprintLog: New page: Compile MonsterMovePath
+[2015.07.03-17.26.51:759][223]BlueprintEditorCompileResults: Info [2025.07] Compile of MonsterMovePath successful! [in 92 ms]
+[2015.07.03-17.26.53:837][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.26.53:988][352]LogSavePackage: Save=69.811409ms
+[2015.07.03-17.26.53:988][352]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap539E0FFB499E9C9D344E01947AC49D63.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.26.54:044][352]LogFileHelpers: Saving map 'TestMap' took 0.396
+[2015.07.03-17.27.04:545][973]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.07.03-17.27.05:542][ 24]LogEditorViewport: Clicking on Actor (LMB): MonsterMovePath_C (MonsterMovePath)
+[2015.07.03-17.27.06:249][ 60]Cmd: DELETE
+[2015.07.03-17.27.06:250][ 60]Cmd: ACTOR DELETE
+[2015.07.03-17.27.06:253][ 60]LogEditorActor: Deleted Actor: MonsterMovePath_C
+[2015.07.03-17.27.06:292][ 60]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2015.07.03-17.27.45:733][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.27.45:884][ 79]LogSavePackage: Save=70.186188ms
+[2015.07.03-17.27.45:884][ 79]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap172797FE4A97619931378A80FCC32FDB.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.27.45:919][ 79]LogFileHelpers: Saving map 'TestMap' took 0.376
+[2015.07.03-17.27.45:925][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterMovePath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset" SILENT=true
+[2015.07.03-17.27.45:985][ 79]LogSavePackage: Save=20.177244ms
+[2015.07.03-17.27.45:985][ 79]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterMovePath67C5BFAB466E20CB7A34C9B15F19D2E9.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterMovePath.uasset'
+[2015.07.03-17.27.46:668][142]BlueprintLog: New page: Compile MonsterMovePath
+[2015.07.03-17.27.46:752][142]BlueprintEditorCompileResults: Info [2080.06] Compile of MonsterMovePath successful! [in 83 ms]
+[2015.07.03-17.27.55:139][626]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.03-17.28.06:438][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.28.06:588][270]LogSavePackage: Save=68.964577ms
+[2015.07.03-17.28.06:588][270]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapDD4659074ADDF6261E96339D1BD88B08.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.28.06:620][270]LogFileHelpers: Saving map 'TestMap' took 0.364
+[2015.07.03-17.28.32:363][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BC7C900
+[2015.07.03-17.28.33:628][347]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_WayPoint_C_0' or package '/Engine/Transient'.
+[2015.07.03-17.28.33:628][347]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_WayPoint_C_1' or package '/Engine/Transient'.
+[2015.07.03-17.28.33:628][347]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_50' or package '/Engine/Transient'.
+[2015.07.03-17.28.33:633][347]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_WayPoint_C_93' or package '/Engine/Transient'.
+[2015.07.03-17.28.33:634][347]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_WayPoint_C_92' or package '/Engine/Transient'.
+[2015.07.03-17.28.35:962][395]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MonsterMovePath_C_3' or package '/Engine/Transient'.
+[2015.07.03-17.28.35:962][395]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MonsterMovePath_C_2' or package '/Engine/Transient'.
+[2015.07.03-17.28.35:962][395]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MonsterMovePath_C_95' or package '/Engine/Transient'.
+[2015.07.03-17.28.35:962][395]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MonsterMovePath_C_94' or package '/Engine/Transient'.
+[2015.07.03-17.28.41:624][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.28.41:775][684]LogSavePackage: Save=69.615829ms
+[2015.07.03-17.28.41:775][684]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap232343D944D13F041DE983ABD3199F8B.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.28.41:809][684]LogFileHelpers: Saving map 'TestMap' took 0.372
+[2015.07.03-17.28.46:046][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.07.03-17.28.51:738][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.28.51:760][225]LogSavePackage: Save=18.133375ms
+[2015.07.03-17.28.51:760][225]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPointD2AF91994A9F3E456360D3A3F8EAE685.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.28.54:275][356]Cmd: DELETE
+[2015.07.03-17.28.54:275][356]Cmd: ACTOR DELETE
+[2015.07.03-17.28.54:276][356]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.28.54:315][356]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.29.30:685][340]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.07.03-17.29.33:713][636]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.07.03-17.29.36:692][793]LogEditorViewport: Clicking on Actor (LMB): WayPoint_C (WayPoint)
+[2015.07.03-17.30.10:682][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.30.10:843][399]LogSavePackage: Save=76.491531ms
+[2015.07.03-17.30.10:843][399]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap51A5A7F34B6801E6A8A2C4ABB0DAD8B2.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.30.10:874][399]LogFileHelpers: Saving map 'TestMap' took 0.408
+[2015.07.03-17.30.10:901][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.30.11:327][399]LogSavePackage: Save=384.098083ms
+[2015.07.03-17.30.11:327][399]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPointB91854FC40C021BAA612318699E96E2F.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.30.11:745][438]BlueprintLog: New page: Compile WayPoint
+[2015.07.03-17.30.11:846][438]BlueprintEditorCompileResults: Info [2225.15] Compile of WayPoint successful! [in 100 ms]
+[2015.07.03-17.30.22:867][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.30.23:020][314]LogSavePackage: Save=72.376144ms
+[2015.07.03-17.30.23:020][314]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap15C6A7CE4D5C909F2079F5B688A368A8.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.30.23:053][314]LogFileHelpers: Saving map 'TestMap' took 0.373
+[2015.07.03-17.30.41:976][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.30.42:128][150]LogSavePackage: Save=69.580673ms
+[2015.07.03-17.30.42:128][150]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapA9A65CEA4814D484953C23997A333C3E.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.30.42:163][150]LogFileHelpers: Saving map 'TestMap' took 0.382
+[2015.07.03-17.30.42:189][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.30.42:594][150]LogSavePackage: Save=365.872894ms
+[2015.07.03-17.30.42:594][150]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPoint379EFF994E4E4D1B8DF50DABCAB79893.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.30.59:861][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.31.00:015][231]LogSavePackage: Save=71.090363ms
+[2015.07.03-17.31.00:015][231]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap544E8C2042BA94C3A63ACAA7855DCC85.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.31.00:048][231]LogFileHelpers: Saving map 'TestMap' took 0.386
+[2015.07.03-17.31.00:072][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.31.00:481][231]LogSavePackage: Save=369.512482ms
+[2015.07.03-17.31.00:481][231]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPoint4A7FCEFB4B26069351187AB3258F9F10.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.31.00:729][256]BlueprintLog: New page: Compile WayPoint
+[2015.07.03-17.31.00:821][256]BlueprintEditorCompileResults: Info [2274.13] Compile of WayPoint successful! [in 91 ms]
+[2015.07.03-17.31.03:059][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.31.03:209][376]LogSavePackage: Save=70.827545ms
+[2015.07.03-17.31.03:209][376]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapFC64D98640C2860036F09583BD0D8732.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.31.03:240][376]LogFileHelpers: Saving map 'TestMap' took 0.377
+[2015.07.03-17.31.24:763][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.31.24:914][356]LogSavePackage: Save=70.446960ms
+[2015.07.03-17.31.24:914][356]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapF98307EE44AB438CBE7E02AE58C29E5F.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.31.24:948][356]LogFileHelpers: Saving map 'TestMap' took 0.374
+[2015.07.03-17.31.24:973][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.31.25:382][356]LogSavePackage: Save=370.391724ms
+[2015.07.03-17.31.25:382][356]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPoint8F89105B457893FC8809539440192B80.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.31.26:268][435]BlueprintLog: New page: Compile WayPoint
+[2015.07.03-17.31.26:358][435]BlueprintEditorCompileResults: Info [2299.67] Compile of WayPoint successful! [in 89 ms]
+[2015.07.03-17.31.27:855][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.31.28:009][514]LogSavePackage: Save=70.754837ms
+[2015.07.03-17.31.28:009][514]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap2B9C0AFE4A32C81075A8C5AA551B3693.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.31.28:041][514]LogFileHelpers: Saving map 'TestMap' took 0.380
+[2015.07.03-17.32.23:848][351]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.23:900][351]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2015.07.03-17.32.24:728][401]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.24:767][401]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.32.25:254][434]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.25:292][434]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.03-17.32.26:311][497]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.26:349][497]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.03-17.32.26:927][537]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.26:967][537]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.32.27:591][579]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.27:630][579]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.32.28:098][614]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.28:137][614]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.07.03-17.32.28:578][648]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.28:618][648]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.07.03-17.32.29:736][718]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.29:774][718]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.03-17.32.30:277][754]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.30:317][754]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.32.30:875][793]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.30:914][793]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.32.31:380][826]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.31:419][826]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.32.31:942][863]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.31:981][863]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2015.07.03-17.32.32:463][898]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.32:515][898]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2015.07.03-17.32.33:422][956]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.33:461][956]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.03-17.32.34:045][996]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.34:084][996]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.03-17.32.34:504][ 29]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.34:543][ 29]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.03-17.32.35:021][ 65]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.35:060][ 65]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2015.07.03-17.32.36:139][133]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.36:179][133]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.07.03-17.32.36:893][180]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.36:932][180]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2015.07.03-17.32.37:526][221]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.32.37:567][221]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.07.03-17.32.40:337][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.32.40:490][354]LogSavePackage: Save=69.394646ms
+[2015.07.03-17.32.40:490][354]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapDC52C102469C04CCE8ECD0951A086B8A.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.32.40:526][354]LogFileHelpers: Saving map 'TestMap' took 0.387
+[2015.07.03-17.33.21:895][660]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.07.03-17.33.37:131][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.33.37:544][255]LogSavePackage: Save=371.912689ms
+[2015.07.03-17.33.37:544][255]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPointB29D714B4B07871D8DD4E08735CB2B65.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.33.37:555][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.33.37:576][255]LogSavePackage: Save=17.619677ms
+[2015.07.03-17.33.37:576][255]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPath726B9823415719BC92DBED86C75CE016.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.34.09:064][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.34.09:217][549]LogSavePackage: Save=70.689987ms
+[2015.07.03-17.34.09:217][549]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapBF21B75048C20C45E2E665A036B31DED.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.34.09:250][549]LogFileHelpers: Saving map 'TestMap' took 0.370
+[2015.07.03-17.34.09:256][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.34.09:321][549]LogSavePackage: Save=20.939770ms
+[2015.07.03-17.34.09:321][549]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPath95FF3415488A11FDD6C6F98502E01090.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.34.10:103][626]BlueprintLog: New page: Compile MonsterPath
+[2015.07.03-17.34.10:197][626]BlueprintEditorCompileResults: Info [2463.50] Compile of MonsterPath successful! [in 93 ms]
+[2015.07.03-17.34.11:282][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.34.11:433][685]LogSavePackage: Save=69.314095ms
+[2015.07.03-17.34.11:433][685]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap9C2ADB1E45863AEF57B724B601545463.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.34.11:466][685]LogFileHelpers: Saving map 'TestMap' took 0.369
+[2015.07.03-17.34.19:388][383]BlueprintLog: New page: Compile WayPoint
+[2015.07.03-17.34.19:473][383]BlueprintEditorCompileResults: Info [2472.78] Compile of WayPoint successful! [in 84 ms]
+[2015.07.03-17.36.16:869][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.36.17:300][703]LogSavePackage: Save=380.725098ms
+[2015.07.03-17.36.17:300][703]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPointB6EF19054020DDDACA756C9AAE7EE44A.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.36.25:903][700]BlueprintLog: New page: Compile WayPoint
+[2015.07.03-17.36.25:991][700]BlueprintEditorCompileResults: Info [2599.29] Compile of WayPoint successful! [in 88 ms]
+[2015.07.03-17.38.02:316][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DC3C5E0
+[2015.07.03-17.38.02:553][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.38.02:714][651]LogSavePackage: Save=72.686752ms
+[2015.07.03-17.38.02:714][651]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap26F2C97746CBBB0CA9BA829ECFCFF4E3.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.38.02:748][651]LogFileHelpers: Saving map 'TestMap' took 0.384
+[2015.07.03-17.38.02:754][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.38.02:815][651]LogSavePackage: Save=20.727123ms
+[2015.07.03-17.38.02:815][651]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPath00028F394BD349C97AEEA1830A1D7428.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.38.04:659][871]BlueprintLog: New page: Compile MonsterPath
+[2015.07.03-17.38.04:754][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C5B8EA0
+[2015.07.03-17.38.04:766][871]BlueprintEditorCompileResults: Info [2698.07] Compile of MonsterPath successful! [in 106 ms]
+[2015.07.03-17.38.23:332][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.38.23:487][897]LogSavePackage: Save=70.939842ms
+[2015.07.03-17.38.23:487][897]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap85BA01BD4731D65C8255058530B82146.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.38.23:526][897]LogFileHelpers: Saving map 'TestMap' took 0.381
+[2015.07.03-17.38.23:532][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.38.23:598][897]LogSavePackage: Save=21.316256ms
+[2015.07.03-17.38.23:598][897]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPath64A6BF324D3D4BE670B44FA375629690.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.38.23:976][941]BlueprintLog: New page: Compile MonsterPath
+[2015.07.03-17.38.24:071][941]BlueprintEditorCompileResults: Info [2717.37] Compile of MonsterPath successful! [in 94 ms]
+[2015.07.03-17.38.25:994][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.38.26:150][ 88]LogSavePackage: Save=71.900337ms
+[2015.07.03-17.38.26:150][ 88]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapC15AD55D4F13EF478FC57AB79FAB081B.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.38.26:191][ 88]LogFileHelpers: Saving map 'TestMap' took 0.393
+[2015.07.03-17.38.32:268][378]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.03-17.39.48:736][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.39.48:907][638]LogSavePackage: Save=87.408897ms
+[2015.07.03-17.39.48:907][638]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap1E98CDCD41DC79D6A9B7ADB59F7D1149.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.39.48:947][638]LogFileHelpers: Saving map 'TestMap' took 0.406
+[2015.07.03-17.39.48:954][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.39.49:027][638]LogSavePackage: Save=21.159245ms
+[2015.07.03-17.39.49:027][638]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPath1F23336D42FAFD6469164BBAFE2890D5.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.39.49:371][678]BlueprintLog: New page: Compile MonsterPath
+[2015.07.03-17.39.49:466][678]BlueprintEditorCompileResults: Info [2802.77] Compile of MonsterPath successful! [in 94 ms]
+[2015.07.03-17.39.50:519][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.39.50:672][771]LogSavePackage: Save=71.820122ms
+[2015.07.03-17.39.50:673][771]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapC116093F4F5268B9CF963B9BB2014558.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.39.50:706][771]LogFileHelpers: Saving map 'TestMap' took 0.368
+[2015.07.03-17.40.18:016][172]EditorErrors: New page: Actor attachment
+[2015.07.03-17.40.29:130][995]LogEditorActor: Deleted Actor: MonsterPath_C
+[2015.07.03-17.40.29:170][995]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2015.07.03-17.40.31:810][142]LogEditorActor: Deleted Actor: WayPoint_C
+[2015.07.03-17.40.31:850][142]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.07.03-17.41.27:861][132]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_WayPoint_C_5' or package '/Engine/Transient'.
+[2015.07.03-17.41.27:861][132]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_WayPoint_C_4' or package '/Engine/Transient'.
+[2015.07.03-17.41.27:861][132]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WayPoints' or package '/Game/MonsterPath'.
+[2015.07.03-17.41.27:861][132]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_WayPoint_C_211' or package '/Engine/Transient'.
+[2015.07.03-17.41.27:862][132]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_WayPoint_C_210' or package '/Engine/Transient'.
+[2015.07.03-17.41.28:014][132]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048913380
+[2015.07.03-17.41.30:883][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.41.31:036][270]LogSavePackage: Save=70.155128ms
+[2015.07.03-17.41.31:036][270]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap9DABB44F42243EB4927DD98A30AF0A4C.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.41.31:071][270]LogFileHelpers: Saving map 'TestMap' took 0.372
+[2015.07.03-17.41.31:078][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.41.31:138][270]LogSavePackage: Save=20.249947ms
+[2015.07.03-17.41.31:138][270]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPathBE6A9DAC45C173B431BF14BE7E6A08EC.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.41.51:561][299]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.07.03-17.41.59:020][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.41.59:035][688]LogSavePackage: Save=9.052692ms
+[2015.07.03-17.41.59:035][688]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPoint24E643B042DBAA1B9114F09CCD96E225.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.42.14:516][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.42.14:579][419]LogSavePackage: Save=5.941832ms
+[2015.07.03-17.42.14:579][419]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPoint72414441465D91A863524B99323C979A.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.42.15:647][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WayPoint" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset" SILENT=true
+[2015.07.03-17.42.15:695][542]LogSavePackage: Save=5.440422ms
+[2015.07.03-17.42.15:695][542]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/WayPoint91577E3F49E627D82F4DACA06527A4E5.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/WayPoint.uasset'
+[2015.07.03-17.42.32:592][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.42.32:748][257]LogSavePackage: Save=70.320328ms
+[2015.07.03-17.42.32:748][257]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapEBF6486D4FD436D86FC8B8A546B290DD.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.42.32:781][257]LogFileHelpers: Saving map 'TestMap' took 0.384
+[2015.07.03-17.42.32:786][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.42.32:848][257]LogSavePackage: Save=20.385113ms
+[2015.07.03-17.42.32:848][257]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPath858C03DE411291E5159447B904D94B23.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.42.34:900][496]BlueprintLog: New page: Compile MonsterPath
+[2015.07.03-17.42.34:995][496]BlueprintEditorCompileResults: Info [2968.30] Compile of MonsterPath successful! [in 94 ms]
+[2015.07.03-17.42.36:647][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.42.36:801][620]LogSavePackage: Save=70.080376ms
+[2015.07.03-17.42.36:801][620]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap5E4ABA614E2B4758B4D0E6A4CF9B02C4.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.42.36:834][620]LogFileHelpers: Saving map 'TestMap' took 0.373
+[2015.07.03-17.42.55:389][708]LogEditorActor: Deleted Actor: MonsterPath_C
+[2015.07.03-17.42.55:431][708]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2015.07.03-17.42.58:398][800]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintFieldNodeSpawner_454' or package '/Engine/Transient'.
+[2015.07.03-17.42.58:398][800]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintFieldNodeSpawner_453' or package '/Engine/Transient'.
+[2015.07.03-17.42.58:399][800]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WayPoints' or package '/Game/MonsterPath'.
+[2015.07.03-17.42.58:399][800]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintFieldNodeSpawner_452' or package '/Engine/Transient'.
+[2015.07.03-17.42.58:584][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C44E5C0
+[2015.07.03-17.43.11:077][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.43.11:236][ 92]LogSavePackage: Save=68.755684ms
+[2015.07.03-17.43.11:236][ 92]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapC918FD62467D4B1F25183282629BEAE0.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.43.11:268][ 92]LogFileHelpers: Saving map 'TestMap' took 0.376
+[2015.07.03-17.43.11:275][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MonsterPath" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset" SILENT=true
+[2015.07.03-17.43.11:336][ 92]LogSavePackage: Save=19.799395ms
+[2015.07.03-17.43.11:336][ 92]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterPathE818CFC34DCEEC9085EC8C9612F8F508.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/MonsterPath.uasset'
+[2015.07.03-17.43.11:669][131]BlueprintLog: New page: Compile MonsterPath
+[2015.07.03-17.43.11:753][131]BlueprintEditorCompileResults: Info [3005.05] Compile of MonsterPath successful! [in 83 ms]
+[2015.07.03-17.43.39:642][850]Cmd: DELETE
+[2015.07.03-17.43.39:642][850]Cmd: ACTOR DELETE
+[2015.07.03-17.43.39:646][850]LogEditorActor: Deleted Actor: MonsterPath_C
+[2015.07.03-17.43.39:685][850]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2015.07.03-17.43.46:263][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-17.43.46:415][176]LogSavePackage: Save=69.772156ms
+[2015.07.03-17.43.46:415][176]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapCEC839B142835F8B502261BCA5CEF543.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-17.43.46:455][176]LogFileHelpers: Saving map 'TestMap' took 0.396
+[2015.07.03-17.44.07:839][352]LogEditorViewport: Clicking on Actor (LMB): BP_LakeWater_C (BP_LakeWater)
+[2015.07.03-19.37.12:759][337]LogSavePackage: Save=69.162888ms
+[2015.07.03-19.37.12:759][337]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto38AE5C68B41AADED036255494C52328CA.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto3.umap'
+[2015.07.03-19.37.12:770][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.254
+[2015.07.03-19.37.12:770][337]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.254
+[2015.07.03-19.37.26:761][ 97]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.37.26:796][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.07.03-19.37.26:849][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.07.03-19.37.26:849][ 97]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.07.03-19.37.26:849][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.07.03-19.37.26:849][ 97]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.07.03-19.37.26:856][ 97]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.37.26:863][ 97]LogMaterial: 0.000242 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.37.26:887][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.07.03-19.37.26:889][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2015.07.03-19.37.26:892][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.07.03-19.37.34:993][812]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.07.03-19.37.34:993][812]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-19.37.34:994][812]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-19.37.34:994][812]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.07.03-19.38.34:155][ 36]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.34:162][ 36]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.38.34:165][ 36]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.34:172][ 36]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.38.43:416][940]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.43:424][940]LogMaterial: 0.000749 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.38.50:420][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-19.38.50:732][607]LogSavePackage: Save=223.708893ms
+[2015.07.03-19.38.50:732][607]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapA7D498454D1F406F537056AB6289B329.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-19.38.50:815][607]LogFileHelpers: Saving map 'TestMap' took 0.637
+[2015.07.03-19.38.55:524][ 99]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2015.07.03-19.38.57:409][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:433][ 99]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.38.57:530][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:615][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:646][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:680][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:711][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:742][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:774][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:806][ 99]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.38.57:841][ 99]LogMaterial: 0.196891 seconds spent updating 1 materials, 1 interfaces, 19 instances, 6 with static permutations.
+[2015.07.03-19.39.16:936][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Tutorial/Landscape/TutorialAssets/Landscape_Material" FILE="../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape_Material.uasset" SILENT=true
+[2015.07.03-19.39.17:636][ 99]LogSavePackage: Save=563.329285ms
+[2015.07.03-19.39.17:636][ 99]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Landscape_MaterialAD41E0E24909E5860F1A0AA581674E8F.tmp' to '../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape_Material.uasset'
+[2015.07.03-19.39.17:645][ 99]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2015.07.03-19.39.17:645][ 99]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.07.03-19.39.17:645][ 99]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-19.39.17:645][ 99]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.03-19.43.01:902][817]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.07.03-19.43.22:879][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-19.43.23:062][974]LogSavePackage: Save=94.201660ms
+[2015.07.03-19.43.23:062][974]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapDA3D3C0144FDFAE1D87661981CD24A80.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-19.48.20:190][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.StaticMeshComponent_29) Not registered. Aborting.
+[2015.07.03-19.55.39:895][496]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Julian\Desktop\FruitDefense\Textures\Grass texture.jpg)
+[2015.07.03-19.55.45:194][496]Error: Texture import failed
+[2015.07.03-19.55.46:396][496]LogAssetTools:Warning: Failed to import 'C:\Users\Julian\Desktop\FruitDefense\Textures\Grass texture.jpg'. Failed to create asset '/Game/Grass_texture'
+[2015.07.03-19.55.52:410][496]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Julian\Desktop\FruitDefense\Textures\Grass texture.jpg)
+[2015.07.03-19.56.00:384][496]Error: Texture import failed
+[2015.07.03-19.56.01:598][496]LogAssetTools:Warning: Failed to import 'C:\Users\Julian\Desktop\FruitDefense\Textures\Grass texture.jpg'. Failed to create asset '/Game/Landscape/Grass_texture'
+[2015.07.03-19.56.09:177][496]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Julian\Desktop\FruitDefense\Textures\Grass texture.jpg)
+[2015.07.03-19.56.10:154][496]0.000030 seconds to analyze Texture2D /Game/Maps/Grass_texture.Grass_texture
+
+[2015.07.03-19.56.10:159][496]LogTexture:Display: Building textures: Grass_texture (BGRA8)
+[2015.07.03-19.56.10:196][496]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.07.03-19.56.10:197][496]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.07.03-19.56.13:605][497]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.044
+[2015.07.03-19.56.13:643][497]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Maps/Grass_texture] ([1] browsable assets)...
+[2015.07.03-19.56.13:676][497]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Maps/Grass_texture.Grass_texture]
+[2015.07.03-19.56.13:676][497]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Grass_texture]
+[2015.07.03-19.56.13:677][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grass_texture" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/Grass_texture_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2015.07.03-19.56.13:823][497]LogSavePackage: Save=142.994797ms
+[2015.07.03-19.56.13:824][497]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Grass_texture_Auto4680967684520746638434199600A663D.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/Grass_texture_Auto4.uasset'
+[2015.07.03-19.56.13:836][497]LogFileHelpers: Auto-saving content packages took 0.231
+[2015.07.03-19.56.25:419][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Grass_texture" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Grass_texture.uasset" SILENT=true
+[2015.07.03-19.56.25:465][184]LogSavePackage: Save=42.617832ms
+[2015.07.03-19.56.25:466][184]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Grass_textureF690FB1E4BA26F78FECC6399B95CEE5D.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Grass_texture.uasset'
+[2015.07.03-19.56.26:759][251]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape'
+[2015.07.03-19.56.33:163][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Textures/Grass_texture" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Textures/Grass_texture.uasset" SILENT=true
+[2015.07.03-19.56.33:206][631]LogSavePackage: Save=39.488541ms
+[2015.07.03-19.56.33:206][631]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Grass_texture57CEC03641178DB877B0F2A948C5B4DE.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Textures/Grass_texture.uasset'
+[2015.07.03-19.56.34:587][699]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape/Textures'
+[2015.07.03-19.57.09:711][587]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.09:718][587]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.57.18:222][306]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.07.03-19.57.18:222][306]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-19.57.18:222][306]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-19.57.18:222][306]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.07.03-19.57.32:624][958]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.32:631][958]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.57.32:632][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.03-19.57.32:637][958]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.32:645][958]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.57.32:731][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.07.03-19.57.34:714][118]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.07.03-19.57.34:715][118]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape/Textures'
+[2015.07.03-19.57.39:786][432]MaterialEditorStats: Info Base pass shader with static lighting: 61 instructions
+[2015.07.03-19.57.39:786][432]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.07.03-19.57.39:786][432]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-19.57.39:786][432]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.07.03-19.57.51:002][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-19.57.51:173][241]LogSavePackage: Save=69.540398ms
+[2015.07.03-19.57.51:173][241]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap71004D414F1EBCB77B0A9A9E6FBF66F0.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-19.57.53:382][424]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2015.07.03-19.57.55:157][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:182][424]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-19.57.55:440][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:495][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:526][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:557][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:589][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:622][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:655][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:690][424]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-19.57.55:723][424]LogMaterial: 0.199462 seconds spent updating 1 materials, 1 interfaces, 19 instances, 6 with static permutations.
+[2015.07.03-19.58.14:691][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Tutorial/Landscape/TutorialAssets/Landscape_Material" FILE="../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape_Material.uasset" SILENT=true
+[2015.07.03-19.58.15:110][424]LogSavePackage: Save=310.131683ms
+[2015.07.03-19.58.15:110][424]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Landscape_MaterialE77D2E624E0160C58415D99D0693A091.tmp' to '../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape_Material.uasset'
+[2015.07.03-19.58.15:120][424]MaterialEditorStats: Info Base pass shader with static lighting: 90 instructions
+[2015.07.03-19.58.15:120][424]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.07.03-19.58.15:120][424]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-19.58.15:120][424]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.03-20.07.54:974][920]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-20.07.54:976][920]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-20.07.54:978][920]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-20.07.54:979][920]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-20.07.54:981][920]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-20.07.55:237][920]LogSavePackage: Save=271.957275ms
+[2015.07.03-20.07.55:237][920]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto545C3A54044B5351227874CA22DCDDB18.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto5.umap'
+[2015.07.03-20.07.55:247][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.469
+[2015.07.03-20.07.55:248][920]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.469
+[2015.07.03-20.07.55:251][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grass_texture" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/Grass_texture_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2015.07.03-20.07.55:350][920]LogSavePackage: Save=96.569107ms
+[2015.07.03-20.07.55:351][920]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Grass_texture_Auto54B8F31FC4C36E29093B229933FF16416.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/Grass_texture_Auto5.uasset'
+[2015.07.03-20.07.55:360][920]LogFileHelpers: Auto-saving content packages took 0.112
+[2015.07.03-20.08.37:574][692]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Julian\Desktop\FruitDefense\Textures\Gravel Road Texture.jpg)
+[2015.07.03-20.08.38:895][692]0.000017 seconds to analyze Texture2D /Game/Landscape/Textures/Gravel_Road_Texture.Gravel_Road_Texture
+
+[2015.07.03-20.08.38:898][692]LogTexture:Display: Building textures: Gravel_Road_Texture (BGRA8)
+[2015.07.03-20.08.38:917][692]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.07.03-20.08.38:917][692]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape/Textures'
+[2015.07.03-20.09.00:171][779]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.00:178][779]LogMaterial: 0.000185 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.09.07:496][345]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.07.03-20.09.07:496][345]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.09.07:496][345]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-20.09.07:496][345]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.07.03-20.09.15:048][226]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.15:055][226]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.09.15:056][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.07.03-20.09.15:062][226]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.15:069][226]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.09.15:156][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.07.03-20.09.20:359][632]MaterialEditorStats: Info Base pass shader with static lighting: 60 instructions
+[2015.07.03-20.09.20:359][632]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.09.20:359][632]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-20.09.20:359][632]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.07.03-20.09.32:645][884]LogMaterialEditor: Saving and Compiling material Landscape_Material
+[2015.07.03-20.09.34:402][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:427][884]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.09.34:507][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:558][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:666][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:726][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:758][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:790][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:823][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:856][884]LogMaterial: Missing cached shader map for material Landscape_Material, compiling. 
+[2015.07.03-20.09.34:887][884]LogMaterial: 0.223490 seconds spent updating 1 materials, 1 interfaces, 19 instances, 6 with static permutations.
+[2015.07.03-20.09.53:665][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Tutorial/Landscape/TutorialAssets/Landscape_Material" FILE="../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape_Material.uasset" SILENT=true
+[2015.07.03-20.09.54:483][884]LogSavePackage: Save=571.475708ms
+[2015.07.03-20.09.54:483][884]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Landscape_MaterialF054054A4FB01D466A4EF587FA1D0B67.tmp' to '../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape_Material.uasset'
+[2015.07.03-20.09.54:490][884]MaterialEditorStats: Info Base pass shader with static lighting: 89 instructions
+[2015.07.03-20.09.54:490][884]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.07.03-20.09.54:490][884]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-20.09.54:490][884]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.07.03-20.12.25:211][294]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape/Materials'
+[2015.07.03-20.12.54:901][793]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape/Materials'
+[2015.07.03-20.13.16:035][217]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.13.16:104][217]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.07.03-20.13.16:181][217]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.07.03-20.13.16:181][217]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.07.03-20.13.16:182][217]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.07.03-20.13.16:182][217]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.07.03-20.13.16:185][217]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.13.16:191][217]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.13.24:039][911]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.13.24:039][911]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.13.24:039][911]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.13.52:479][288]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.13.52:485][288]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.13.52:485][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerSwitch_0, compiling. 
+[2015.07.03-20.13.52:490][288]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.13.52:496][288]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.13.52:533][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerSwitch_0, compiling. 
+[2015.07.03-20.13.56:695][718]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.13.56:701][718]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.06:827][711]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.06:833][711]LogMaterial: 0.000143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.06:836][711]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.06:842][711]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.09:536][966]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerSample_0, compiling. 
+[2015.07.03-20.14.12:406][269]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.12:412][269]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.22:096][174]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.22:102][174]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.22:103][174]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerSwitch_1, compiling. 
+[2015.07.03-20.14.22:108][174]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.22:113][174]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.22:162][174]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerSwitch_1, compiling. 
+[2015.07.03-20.14.24:419][404]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.24:426][404]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.32:504][227]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.32:510][227]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.32:514][227]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.32:585][227]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.34:080][378]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.34:086][378]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.47:323][601]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.14.47:323][601]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.14.47:323][601]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.14.48:603][753]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.48:609][753]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.14.48:612][753]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.14.48:618][753]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.15.03:530][327]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.15.03:530][327]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.15.03:530][327]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.15.18:832][160]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.15.18:838][160]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.15.18:841][160]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.15.18:847][160]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.15.49:720][629]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.15.49:720][629]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.15.49:720][629]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.16.03:075][215]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.16.03:081][215]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.16.03:085][215]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.16.03:091][215]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.16.06:277][539]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerWeight_2, compiling. 
+[2015.07.03-20.16.22:916][245]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.16.22:922][245]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.16.37:029][597]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.16.37:035][597]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.16.51:671][980]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.16.51:677][980]LogMaterial: 0.000143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.17.11:546][799]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.17.11:552][799]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.17.47:049][468]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.17.47:049][468]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.17.47:049][468]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.17.55:005][306]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.17.55:011][306]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.18.07:698][563]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.18.07:698][563]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.18.07:698][563]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.18.17:596][736]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.18.17:602][736]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.18.17:605][736]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.18.17:611][736]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.18.19:951][925]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-20.18.19:954][925]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-20.18.20:558][925]LogSavePackage: Save=614.668030ms
+[2015.07.03-20.18.20:558][925]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto6CDFC93434F81F090CB7E83947055E135.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto6.umap'
+[2015.07.03-20.18.20:570][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.964
+[2015.07.03-20.18.20:570][925]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.964
+[2015.07.03-20.18.20:627][925]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Landscape/Materials/LandscapeMaterial] ([1] browsable assets)...
+[2015.07.03-20.18.20:661][925]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Landscape/Materials/LandscapeMaterial.LandscapeMaterial]
+[2015.07.03-20.18.20:661][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/Landscape/Materials/LandscapeMaterial]
+[2015.07.03-20.18.21:106][925]LogSavePackage: Save=432.484009ms
+[2015.07.03-20.18.21:107][925]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/LandscapeMaterial_Auto61C497DD446ABD6102B52D394B87D6F93.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Landscape/Materials/LandscapeMaterial_Auto6.uasset'
+[2015.07.03-20.18.21:263][925]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Landscape/Textures/Gravel_Road_Texture] ([1] browsable assets)...
+[2015.07.03-20.18.21:280][925]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Landscape/Textures/Gravel_Road_Texture.Gravel_Road_Texture]
+[2015.07.03-20.18.21:280][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/Landscape/Textures/Gravel_Road_Texture]
+[2015.07.03-20.18.21:580][925]LogSavePackage: Save=295.455292ms
+[2015.07.03-20.18.21:581][925]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Gravel_Road_Texture_Auto6A798A0A04A8ECAA002C715AEAB3B5402.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Landscape/Textures/Gravel_Road_Texture_Auto6.uasset'
+[2015.07.03-20.18.21:590][925]LogFileHelpers: Auto-saving content packages took 1.020
+[2015.07.03-20.18.23:697][114]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.18.23:703][114]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.18.38:681][622]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.18.38:688][622]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.18.41:116][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-20.18.41:296][833]LogSavePackage: Save=88.342773ms
+[2015.07.03-20.18.41:296][833]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap64B5C36B44CF2B6E80397D938F84FAF0.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-20.18.41:342][833]LogFileHelpers: Saving map 'TestMap' took 0.541
+[2015.07.03-20.18.41:692][833]LogSavePackage: Save=316.740479ms
+[2015.07.03-20.18.41:692][833]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/LandscapeMaterialA7F35B9846AB31E24ABF07BA6B4DCC19.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Materials/LandscapeMaterial.uasset'
+[2015.07.03-20.18.41:762][833]LogSavePackage: Save=43.575600ms
+[2015.07.03-20.18.41:762][833]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Gravel_Road_Texture2480301D48D5E0819E8DCBA06D23E9B6.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Textures/Gravel_Road_Texture.uasset'
+[2015.07.03-20.18.41:775][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grass_texture" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/Grass_texture.uasset" SILENT=true
+[2015.07.03-20.18.41:784][833]LogSavePackage: Save=4.256015ms
+[2015.07.03-20.18.41:784][833]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Grass_texture402DADBC47C61535761141830CE16C66.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/Grass_texture.uasset'
+[2015.07.03-20.18.54:642][677]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.18.54:648][677]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.18.54:649][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.07.03-20.18.54:654][677]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.18.54:660][677]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.18.54:683][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.07.03-20.19.32:432][374]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.19.32:432][374]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.19.32:432][374]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.19.33:570][471]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.19.33:576][471]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.19.33:616][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.07.03-20.19.57:225][852]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.07.03-20.19.57:225][852]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.07.03-20.19.57:225][852]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.19.58:555][985]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.19.58:561][985]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.19.58:562][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.07.03-20.19.58:565][985]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.19.58:566][985]LogMaterial:Warning: Failed to compile Material /Engine/Transient.LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2015.07.03-20.19.58:566][985]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.07.03-20.19.58:566][985]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.19.58:590][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.07.03-20.19.58:593][985]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.07.03-20.20.08:776][976]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.20.08:782][976]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.20.08:876][976]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.07.03-20.20.30:689][167]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.20.30:695][167]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.20.30:696][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.03-20.20.30:700][167]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.20.30:701][167]LogMaterial:Warning: Failed to compile Material /Engine/Transient.LandscapeMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2015.07.03-20.20.30:701][167]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.07.03-20.20.30:701][167]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.20.30:794][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.03-20.20.30:797][167]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.07.03-20.20.35:901][631]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.20.35:907][631]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.20.36:042][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.03-20.20.45:440][433]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.20.45:447][433]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.20.45:473][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.07.03-20.20.55:138][319]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.20.55:144][319]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.20.55:145][319]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.07.03-20.20.55:150][319]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.20.55:157][319]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.20.55:343][319]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.07.03-20.21.19:734][683]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.21.19:741][683]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.21.19:796][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.07.03-20.21.46:950][ 65]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2015.07.03-20.21.46:950][ 65]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-20.21.46:950][ 65]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.07.03-20.22.01:739][418]LogMaterialEditor: Saving and Compiling material LandscapeMaterial
+[2015.07.03-20.22.03:515][418]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.03:538][418]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.22.03:674][418]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.03:693][418]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.03:702][418]LogMaterial: 0.001090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.22.08:533][418]LogSavePackage: Save=258.222229ms
+[2015.07.03-20.22.08:533][418]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/LandscapeMaterialC8E85BDE43B3AFDC008412845FC3328E.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Materials/LandscapeMaterial.uasset'
+[2015.07.03-20.22.08:545][418]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.07.03-20.22.08:545][418]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-20.22.08:545][418]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.07.03-20.22.16:776][280]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.16:782][280]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.22.16:785][280]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.16:792][280]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.22.23:636][874]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.23:643][874]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.22.30:747][530]LogMaterialEditor: Saving and Compiling material LandscapeMaterial
+[2015.07.03-20.22.32:608][530]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.32:630][530]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.22.32:677][530]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.32:695][530]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.22.32:708][530]LogMaterial: 0.005761 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.22.37:743][530]LogSavePackage: Save=291.015991ms
+[2015.07.03-20.22.37:743][530]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/LandscapeMaterial880431BC486C6F44E9A71686C4A82B26.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Materials/LandscapeMaterial.uasset'
+[2015.07.03-20.22.37:758][530]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.07.03-20.22.37:758][530]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.07.03-20.22.37:758][530]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.07.03-20.23.15:729][765]LogMaterial: 0.001049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.23.15:729][765]LogMaterial:Warning: Material /Game/Landscape/Materials/LandscapeMaterial.LandscapeMaterial needed to have new flag set bUsedWithLandscape !
+[2015.07.03-20.23.15:734][765]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.23.15:756][765]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.23.15:756][765]LogMaterial:Warning: Material /Game/Landscape/Materials/LandscapeMaterial.LandscapeMaterial needed to have new flag set bUsedWithStaticLighting !
+[2015.07.03-20.23.15:757][765]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.23.15:799][765]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.07.03-20.23.15:803][765]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.23.15:832][765]LogMaterial: 0.001333 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.23.15:845][765]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.23.15:879][765]LogMaterial: 0.005654 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.23.15:900][765]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.23.15:932][765]LogMaterial: 0.001615 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.23.15:944][765]LogMaterial: 0.005296 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.23.15:948][765]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.23.15:984][765]LogMaterial: 0.005725 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.23.15:989][765]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.23.16:024][765]LogMaterial: 0.005463 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.23.16:063][766]Cmd: UpdateLandscapeEditorData
+[2015.07.03-20.23.16:076][766]Cmd: UpdateLandscapeMIC
+[2015.07.03-20.23.30:621][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048913920
+[2015.07.03-20.23.30:623][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024C11BC0
+[2015.07.03-20.23.30:623][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DA88220
+[2015.07.03-20.23.31:114][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-20.23.31:296][361]LogSavePackage: Save=84.748253ms
+[2015.07.03-20.23.31:296][361]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMapF0EAF4A74360209F082B5780399763FD.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-20.23.31:551][361]LogFileHelpers: Saving map 'TestMap' took 0.693
+[2015.07.03-20.23.31:670][361]LogSavePackage: Save=12.140343ms
+[2015.07.03-20.23.31:670][361]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/LandscapeMaterialCBC1A54A47A9D09609EAD6A9F8603C3C.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Landscape/Materials/LandscapeMaterial.uasset'
+[2015.07.03-20.24.05:567][215]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/WaterPlane'
+[2015.07.03-20.24.06:162][243]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.07.03-20.24.12:438][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/TestMap_sharedassets'
+[2015.07.03-20.24.35:183][404]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape/Materials'
+[2015.07.03-20.24.36:495][442]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.07.03-20.24.36:603][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.07.03-20.24.36:757][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.07.03-20.24.36:757][442]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.07.03-20.24.36:757][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.07.03-20.24.36:757][442]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.07.03-20.24.36:765][442]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.07.03-20.24.36:772][442]LogMaterial: 0.000236 se

@@ -1,0 +1,490 @@
+﻿Log file open, 07/03/15 22:30:09
+LogInit:Display: Running engine for game: Defense
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.07.03-20.30.09:147][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.07.03-20.30.09:201][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.03-20.30.09:220][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.03-20.30.09:232][  0]LogInit: Object subsystem initialized
+[2015.07.03-20.30.09:234][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.03-20.30.09:234][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Julian/Desktop/FruitDefense/Defense/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.03-20.30.09:234][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.03-20.30.09:234][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Julian/Desktop/FruitDefense/Defense/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.03-20.30.09:234][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.03-20.30.09:234][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Julian/Desktop/FruitDefense/Defense/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.03-20.30.09:235][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.03-20.30.09:235][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.03-20.30.09:244][  0]LogInit: Computer: JULIAN-DATOR
+[2015.07.03-20.30.09:244][  0]LogInit: User: Julian
+[2015.07.03-20.30.09:244][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.07.03-20.30.09:244][  0]LogInit: High frequency timer resolution =2.929736 MHz
+[2015.07.03-20.30.09:244][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.07.03-20.30.09:244][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.03-20.30.09:244][  0]LogMemory: Process Physical Memory: 47.16 MB used, 47.16 MB peak
+[2015.07.03-20.30.09:244][  0]LogMemory: Process Virtual Memory: 23.14 MB used, 23.14 MB peak
+[2015.07.03-20.30.09:244][  0]LogMemory: Physical Memory: 3104.52 MB used, 8121.64 MB total
+[2015.07.03-20.30.09:244][  0]LogMemory: Virtual Memory: 277.00 MB used, 8388608.00 MB total
+[2015.07.03-20.30.09:278][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2015.07.03-20.30.09:278][  0]LogD3D11RHI: Adapter has 972MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2015.07.03-20.30.09:278][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.03-20.30.09:283][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2015.07.03-20.30.09:294][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.03-20.30.09:366][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.03-20.30.09:465][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.07.03-20.30.09:465][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.07.03-20.30.09:561][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.03-20.30.12:335][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-20.30.13:102][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-20.30.13:191][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.03-20.30.13:235][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Julian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.07.03-20.30.13:235][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Julian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.07.03-20.30.13:235][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Julian/Desktop/FruitDefense/Defense/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.03-20.30.13:235][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.03-20.30.13:379][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.03-20.30.13:390][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Julian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.03-20.30.13:796][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.03-20.30.13:796][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.03-20.30.14:205][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.03-20.30.14:331][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.07.03-20.30.15:328][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.03-20.30.15:627][  0]SourceControl: Info Source control is disabled
+[2015.07.03-20.30.15:627][  0]SourceControl: Info Source control is disabled
+[2015.07.03-20.30.15:627][  0]SourceControl: Info Source control is disabled
+[2015.07.03-20.30.15:627][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.07.03-20.30.15:627][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.07.03-20.30.15:643][  0]SourceControl: Info Source control is disabled
+[2015.07.03-20.30.15:930][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.07.03-20.30.15:930][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.07.03-20.30.16:033][  0]LogEngine: Initializing Engine...
+[2015.07.03-20.30.18:235][  0]LogInit: XAudio2 using 'Högtalare (2- Wireless Stereo Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.03-20.30.18:257][  0]LogInit: FAudioDevice initialized.
+[2015.07.03-20.30.18:315][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.03-20.30.18:339][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Julian/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.07.03-20.30.18:344][  0]LogInit: Texture streaming: Enabled
+[2015.07.03-20.30.18:472][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.03-20.30.18:472][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.07.03-20.30.18:472][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.07.03-20.30.18:472][  0]LogAnalytics: SetUserId 114211194728c12cf23f1982bf284a97|4a027c99dc4a4f4b84fd30ef33c35992|6d9f2403-2aa6-497e-9cf6-fe627383b913
+[2015.07.03-20.30.18:473][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.07.03-20.30.18:506][  0]LogInit: Transaction tracking system initialized
+[2015.07.03-20.30.18:803][  0]BlueprintLog: New page: Editor Load
+[2015.07.03-20.30.18:853][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.07.03-20.30.18:853][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.03-20.30.19:834][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-20.30.20:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.03-20.30.20:866][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.07.03-20.30.20:867][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.07.03-20.30.20:873][  0]LogConsoleResponse:Display: 
+[2015.07.03-20.30.21:350][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.03-20.30.21:572][  0]SourceControl: Info Source control is disabled
+[2015.07.03-20.30.21:572][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.03-20.30.21:573][  0]LightingResults: New page: Lighting Build
+[2015.07.03-20.30.21:593][  0]MapCheck: New page: Map Check
+[2015.07.03-20.30.21:593][  0]LightingResults: New page: Lighting Build
+[2015.07.03-20.30.21:611][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000196E0C20
+[2015.07.03-20.30.22:465][  0]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.30.22:541][  0]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.30.22:575][  0]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.30.22:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.03-20.30.22:815][  0]LogAIModule: Creating AISystem for world TestMap
+[2015.07.03-20.30.22:816][  0]Cmd: MAP CHECKDEP
+[2015.07.03-20.30.22:816][  0]MapCheck: New page: TestMap - Jul 4, 2015, 12:30:22 AM
+[2015.07.03-20.30.22:990][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.386ms to complete.
+[2015.07.03-20.30.22:991][  0]LogFileHelpers: Loading map 'TestMap' took 1.417
+[2015.07.03-20.30.23:395][  0]LogCollectionManager: Loaded 0 collections in 0.002253 seconds
+[2015.07.03-20.30.23:413][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 1696 classes and 261 folders.
+[2015.07.03-20.30.23:558][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0048 seconds. Added 1 classes and 2 folders.
+[2015.07.03-20.30.23:724][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.03-20.30.23:726][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.07.03-20.30.23:733][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.03-20.30.23:848][  0]LogLoad: Full Startup: 16.90 seconds (BP compile: 0.08 seconds)
+[2015.07.03-20.30.24:206][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.07.03-20.30.24:450][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.07.03-20.30.24:584][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.07.03-20.30.24:585][  1]Cmd: UpdateLandscapeEditorData
+[2015.07.03-20.30.24:844][  4]LogAssetRegistry: Asset discovery search completed in 6.0007 seconds
+[2015.07.03-20.30.52:035][916]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.30.52:066][916]LogMaterial: 0.001284 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.30.52:073][916]LogMaterial: 0.001252 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.30.52:080][916]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.30.52:110][916]LogMaterial: 0.001211 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.30.52:118][916]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.30.52:148][916]LogMaterial: 0.001196 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.30.52:154][916]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.07.03-20.30.52:157][916]LogLinker:Warning: Can't find file '/Game/Landscape/Materials/Gravel'
+[2015.07.03-20.30.52:177][916]LogLinker: Can't find file '/Game/Landscape/Materials/Gravel'
+[2015.07.03-20.31.20:360][736]LogMaterial: 0.002020 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.31.33:335][128]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/TestMap_sharedassets'
+[2015.07.03-20.31.40:625][356]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.07.03-20.31.40:625][356]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/TestMap_sharedassets'
+[2015.07.03-20.31.47:789][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-20.31.48:081][659]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-20.31.48:084][659]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-20.31.48:085][659]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-20.31.48:086][659]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-20.31.48:087][659]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-20.31.48:089][659]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-20.31.48:090][659]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.07.03-20.31.48:091][659]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-20.31.49:560][659]LogSavePackage: Save=1490.406006ms
+[2015.07.03-20.31.49:561][659]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap2147335D42FDB3220851019166F23CA5.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-20.35.20:840][ 25]LogSavePackage: Save=8.210296ms
+[2015.07.03-20.35.20:840][ 25]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Soil_LayerInfo0AF6611C4F6557C4867449A528EC93E4.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap_sharedassets/Soil_LayerInfo.uasset'
+[2015.07.03-20.35.20:864][ 25]LogSavePackage: Save=4.901124ms
+[2015.07.03-20.35.20:864][ 25]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Road_LayerInfo708A6AF0443857C93F4869B7C1E100DB.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap_sharedassets/Road_LayerInfo.uasset'
+[2015.07.03-20.35.38:413][979]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.35.38:444][979]LogMaterial: 0.001425 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.35.38:454][979]LogMaterial: 0.004440 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.37.53:683][ 44]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.37.53:714][ 44]LogMaterial: 0.001637 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.37.53:831][ 45]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.37.53:865][ 45]LogMaterial: 0.004942 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.40.57:153][997]LogMaterial: 0.001852 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.41.54:015][306]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-20.41.54:017][306]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-20.41.54:018][306]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-20.41.54:019][306]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-20.41.54:020][306]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-20.41.54:021][306]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-20.41.54:022][306]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.07.03-20.41.54:023][306]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-20.41.54:025][306]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.07.03-20.41.54:295][306]LogSavePackage: Save=286.928589ms
+[2015.07.03-20.41.54:295][306]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto1A7537D6641105D606834FCB07D273164.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto1.umap'
+[2015.07.03-20.41.54:305][306]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.452
+[2015.07.03-20.41.54:305][306]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.452
+[2015.07.03-20.43.28:192][892]Cmd: TRANSACTION UNDO
+[2015.07.03-20.43.28:192][892]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-20.43.28:213][892]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.07.03-20.43.28:232][892]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-20.43.59:471][266]Cmd: TRANSACTION UNDO
+[2015.07.03-20.43.59:471][266]LogEditorTransaction: Undo Landscape Editing: Paint
+[2015.07.03-20.43.59:499][266]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-20.43.59:518][266]PIE:Warning: Warning AttachTo: '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/TestMap.TestMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.07.03-20.44.03:412][494]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.44.03:442][494]LogMaterial: 0.001375 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.44.11:173][841]LogMaterial: Missing cached shader map for material LandscapeMaterial, compiling. 
+[2015.07.03-20.44.11:204][841]LogMaterial: 0.001438 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2015.07.03-20.51.54:615][218]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-20.51.54:616][218]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-20.51.54:617][218]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-20.51.54:619][218]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.07.03-20.51.54:620][218]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.07.03-20.51.54:621][218]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-20.51.54:623][218]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.07.03-20.51.54:624][218]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.07.03-20.51.54:625][218]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.07.03-20.51.54:971][218]LogSavePackage: Save=363.645386ms
+[2015.07.03-20.51.54:971][218]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto2318A78C545F2C5EF5D9E6E81A488C4BF.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto2.umap'
+[2015.07.03-20.51.54:982][218]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.516
+[2015.07.03-20.51.54:982][218]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.516
+[2015.07.03-20.54.39:973][572]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2015.07.03-20.57.24:629][741]Cmd: DELETE
+[2015.07.03-20.57.24:629][741]Cmd: ACTOR DELETE
+[2015.07.03-20.57.24:632][741]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2015.07.03-20.57.24:634][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.07.03-20.57.24:694][741]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.07.03-20.57.27:799][935]LogEditor: Attempting to add actor of class 'NavLinkProxy' to level at 960.00,2260.00,910.00
+[2015.07.03-20.57.28:787][984]LogEditor: Attempting to add actor of class 'NavLinkProxy' to level at 1960.00,3020.00,930.00
+[2015.07.03-20.57.34:196][266]LogEditor: Attempting to add actor of class 'NavLinkProxy' to level at 970.00,2220.00,910.00
+[2015.07.03-20.57.34:911][302]LogEditor: Attempting to add actor of class 'NavLinkProxy' to level at 1960.00,2680.00,930.00
+[2015.07.03-20.57.38:066][464]Cmd: DELETE
+[2015.07.03-20.57.38:066][464]Cmd: ACTOR DELETE
+[2015.07.03-20.57.38:067][464]LogEditorActor: Deleted Actor: NavLinkProxy
+[2015.07.03-20.57.38:089][464]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2015.07.03-20.57.39:776][554]LogEditorViewport: Clicking on Actor (LMB): NavLinkProxy (NavLinkProxy1)
+[2015.07.03-20.58.00:485][651]Cmd: DELETE
+[2015.07.03-20.58.00:486][651]Cmd: ACTOR DELETE
+[2015.07.03-20.58.00:488][651]LogEditorActor: Deleted Actor: NavLinkProxy
+[2015.07.03-20.58.00:511][651]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.07.03-20.58.09:585][107]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Landscape'
+[2015.07.03-20.58.14:341][363]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.07.03-20.58.15:748][503]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.07.03-20.58.20:826][753]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.07.03-20.58.25:421][132]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.07.03-20.58.30:324][375]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Monster'
+[2015.07.03-20.58.32:714][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-20.58.32:797][481]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.07.03-20.58.32:799][481]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.07.03-20.58.32:800][481]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.07.03-20.58.32:802][481]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.07.03-20.58.32:978][481]LogSavePackage: Save=190.501465ms
+[2015.07.03-20.58.32:978][481]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap94165A334D7A4E6E9C01A0B0F1EC358B.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-20.58.33:040][481]LogFileHelpers: Saving map 'TestMap' took 0.486
+[2015.07.03-20.59.12:410][ 96]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Monster'
+[2015.07.03-20.59.24:491][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/Monster1" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset" SILENT=true
+[2015.07.03-20.59.24:525][689]LogSavePackage: Save=29.809511ms
+[2015.07.03-20.59.24:525][689]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Monster1B283F79448366454A375008C3780BB24.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset'
+[2015.07.03-20.59.26:863][740]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:86031).
+[2015.07.03-20.59.57:739][674]LogMaterial: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2015.07.03-21.00.24:386][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/Monster1" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset" SILENT=true
+[2015.07.03-21.00.24:689][724]LogSavePackage: Save=250.396622ms
+[2015.07.03-21.00.24:689][724]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Monster1E89B4CB84DA7FCB071848498CA71A610.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset'
+[2015.07.03-21.00.28:071][  8]BlueprintLog: New page: Compile Monster1
+[2015.07.03-21.00.28:155][  8]BlueprintEditorCompileResults: Info [1821.19] Compile of Monster1 successful! [in 83 ms]
+[2015.07.03-21.00.32:141][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D4391C0
+[2015.07.03-21.00.40:222][662]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Monster'
+[2015.07.03-21.00.51:167][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/Monster1" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset" SILENT=true
+[2015.07.03-21.00.51:204][191]LogSavePackage: Save=32.861664ms
+[2015.07.03-21.00.51:204][191]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Monster126463A0C4A8973CF8E10F59B0A12E79F.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset'
+[2015.07.03-21.01.34:887][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/Monster1" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset" SILENT=true
+[2015.07.03-21.01.35:192][947]LogSavePackage: Save=256.476685ms
+[2015.07.03-21.01.35:192][947]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Monster1448495A847F212BA7F50188473CB18DD.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset'
+[2015.07.03-21.01.35:672][992]BlueprintLog: New page: Compile Monster1
+[2015.07.03-21.01.35:756][992]BlueprintEditorCompileResults: Info [1888.79] Compile of Monster1 successful! [in 83 ms]
+[2015.07.03-21.02.07:764][810]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.03-21.02.30:805][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.07.03-21.02.31:293][566]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Monster'
+[2015.07.03-21.02.35:580][899]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Monster'
+[2015.07.03-21.03.00:688][651]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Monster'
+[2015.07.03-21.04.02:169][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-21.04.02:366][ 29]LogSavePackage: Save=107.499451ms
+[2015.07.03-21.04.02:366][ 29]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap85329FD74038CBFA2430B6B46E73C87E.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-21.04.02:401][ 29]LogFileHelpers: Saving map 'TestMap' took 0.418
+[2015.07.03-21.04.02:408][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/MonsterAI" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/MonsterAI.uasset" SILENT=true
+[2015.07.03-21.04.02:431][ 29]LogSavePackage: Save=18.882931ms
+[2015.07.03-21.04.02:431][ 29]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/MonsterAIC6991DF24FCDD871660B74B8EC616308.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/MonsterAI.uasset'
+[2015.07.03-21.04.12:425][841]BlueprintLog: New page: Compile MonsterAI
+[2015.07.03-21.04.12:508][841]BlueprintEditorCompileResults: Info [2045.54] Compile of MonsterAI successful! [in 82 ms]
+[2015.07.03-21.06.49:402][969]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.03-21.07.48:866][507]LogEditorViewport: Clicking on Actor (LMB): BP_LakeWater_C (BP_LakeWater)
+[2015.07.03-21.11.15:365][572]LogEditorViewport: Clicking on Actor (LMB): BP_LakeWater_C (BP_LakeWater)
+[2015.07.03-21.11.42:498][912]LogEditorViewport: Clicking Background
+[2015.07.03-21.13.31:877][697]LogUnrealMath: Expression Error : No value recognized
+[2015.07.03-21.13.31:877][697]LogUnrealMath: Expression Error : Error in expression
+[2015.07.03-21.14.01:704][393]Cmd: TRANSACTION UNDO
+[2015.07.03-21.14.01:704][393]LogEditorTransaction: Undo Edit Start Distance
+[2015.07.03-21.14.05:244][557]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000323EA5C0
+[2015.07.03-21.14.05:458][557]LogSavePackage: Save=91.422569ms
+[2015.07.03-21.14.05:458][557]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap_Auto36221EE0046B38D0B8025448F37EC7376.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Maps/TestMap_Auto3.umap'
+[2015.07.03-21.14.05:468][557]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.267
+[2015.07.03-21.14.05:468][557]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.267
+[2015.07.03-21.14.05:501][557]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Monster/Monster1] ([1] browsable assets)...
+[2015.07.03-21.14.05:537][557]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Monster/Monster1.Monster1]
+[2015.07.03-21.14.05:537][557]OBJ SavePackage: Finished generating thumbnails for package [/Game/Monster/Monster1]
+[2015.07.03-21.14.05:538][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/Monster1" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Monster/Monster1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.07.03-21.14.05:951][557]LogSavePackage: Save=363.311218ms
+[2015.07.03-21.14.05:952][557]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Monster1_Auto3216106C1462532424D625CA6D01E3D11.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Autosaves/Game/Monster/Monster1_Auto3.uasset'
+[2015.07.03-21.14.05:962][557]LogFileHelpers: Auto-saving content packages took 0.494
+[2015.07.03-21.14.08:739][709]LogEditorViewport: Clicking on Actor (LMB): BP_LakeWater_C (BP_LakeWater)
+[2015.07.03-21.14.16:179][ 99]LogEditorViewport: Clicking Background
+[2015.07.03-21.15.37:901][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-21.15.38:062][300]LogSavePackage: Save=74.344238ms
+[2015.07.03-21.15.38:062][300]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap35C4894F42629CAC5CDFB9ACD3B43010.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-21.15.38:103][300]LogFileHelpers: Saving map 'TestMap' took 0.384
+[2015.07.03-21.15.38:109][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monster/Monster1" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset" SILENT=true
+[2015.07.03-21.15.38:181][300]LogSavePackage: Save=24.223343ms
+[2015.07.03-21.15.38:181][300]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/Monster1AA28E96341653FA98733DBA899EAF892.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Monster/Monster1.uasset'
+[2015.07.03-21.16.32:037][126]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2015.07.03-21.16.33:788][127]LogVSAccessor: Couldn't get item operations. Visual Studio may still be initializing.
+[2015.07.03-21.16.33:802][128]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2015.07.03-21.17.28:699][577]BlueprintLog: New page: Compile Monster1
+[2015.07.03-21.17.28:775][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000138F3060
+[2015.07.03-21.17.28:786][577]BlueprintEditorCompileResults: Info [2841.81] Compile of Monster1 successful! [in 86 ms]
+[2015.07.03-21.18.32:962][363]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.03-21.19.24:708][530]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Gameplay/Framework/Controller/index.html?utm_source=editor&utm_medium=docs&utm_campaign=cb_docs
+[2015.07.03-21.22.48:353][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046206C00
+[2015.07.03-21.22.50:345][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMap" FILE="../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.03-21.22.50:555][155]LogSavePackage: Save=92.726784ms
+[2015.07.03-21.22.50:555][155]LogSavePackage: Moving '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Saved/TestMap80C710F640CE6E0545E4929B4D7BA098.tmp' to '../../../../../../Users/Julian/Desktop/FruitDefense/Defense/Content/Maps/TestMap.umap'
+[2015.07.03-21.22.50:592][155]LogFileHelpers: Saving map 'TestMap' took 0.424
+[2015.07.03-21.22.51:228][156]Cmd: QUIT_EDITOR
+[2015.07.03-21.22.52:299][156]LogExit: Preparing to exit.
+[2015.07.03-21.22.53:182][156]LogExit: Editor shut down
+[2015.07.03-21.22.53:183][156]LogExit: Transaction tracking system shut down
+[2015.07.03-21.22.53:186][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E7AECA0
+[2015.07.03-21.22.53:188][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000162F8900
+[2015.07.03-21.22.53:188][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019CB9DA0
+[2015.07.03-21.22.53:193][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040729120
+[2015.07.03-21.22.53:198][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040813100
+[2015.07.03-21.22.53:198][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031A7BA60
+[2015.07.03-21.22.53:302][156]LogExit: Object subsystem successfully closed.
+[2015.07.03-21.22.53:416][156]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.07.03-21.22.53:416][156]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.07.03-21.22.53:416][156]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.07.03-21.22.53:416][156]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.07.03-21.22.53:416][156]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.07.03-21.22.53:442][156]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.07.03-21.22.53:443][156]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.07.03-21.22.54:144][156]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.07.03-21.22.54:144][156]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.07.03-21.22.54:144][156]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.07.03-21.22.54:144][156]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.07.03-21.22.54:144][156]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.07.03-21.22.54:145][156]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.07.03-21.22.54:168][156]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.07.03-21.22.54:168][156]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.07.03-21.22.54:168][156]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.07.03-21.22.54:169][156]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.07.03-21.22.54:170][156]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.07.03-21.22.54:170][156]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.07.03-21.22.54:170][156]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.07.03-21.22.54:170][156]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.07.03-21.22.54:170][156]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.07.03-21.22.54:170][156]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.07.03-21.22.54:379][156]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.07.03-21.22.54:393][156]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.03-21.22.54:394][156]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.03-21.22.54:394][156]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.07.03-21.22.54:394][156]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.07.03-21.22.54:494][156]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.07.03-21.22.54:494][156]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.07.03-21.22.54:498][156]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.07.03-21.22.54:498][156]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.07.03-21.22.54:498][156]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.07.03-21.22.54:499][156]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.07.03-21.22.54:505][156]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.07.03-21.22.54:505][156]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.07.03-21.22.54:505][156]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.07.03-21.22.54:505][156]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.07.03-21.22.54:506][156]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.07.03-21.22.54:506][156]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.07.03-21.22.54:506][156]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.07.03-21.22.54:506][156]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.07.03-21.22.54:506][156]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.07.03-21.22.54:506][156]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.07.03-21.22.54:521][156]LogDerivedDataCache: Shutdown
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.03-21.22.54:521][156]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.03-21.22.54:524][156]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.03-21.22.54:525][156]LogExit: Exiting.
+[2015.07.03-21.22.54:549][156]Log file closed, 07/03/15 23:22:54
